@@ -1,6 +1,6 @@
 # Bar Chart
 rm(list=ls())
-data <- read.csv('/Users/sajjadislam/Documents/Academic Projects/Data Intelligence/project/Train_Data.csv')
+data <- read.csv('Train_Data.csv')
 View(data)
 Frequency<-table(data$'region')
 Frequency
