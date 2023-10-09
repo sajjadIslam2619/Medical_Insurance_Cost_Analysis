@@ -1,10 +1,10 @@
 ##clear working directory
 rm(list=ls())
-data_train <- read.csv('/Users/sajjadislam/Documents/Academic Projects/Data Intelligence/project/Train_Data.csv')
+data_train <- read.csv('Train_Data.csv')
 View(data_train)
 print(class(data_train))
 
-data_test <- read.csv('/Users/sajjadislam/Documents/Academic Projects/Data Intelligence/project/Test_Data.csv')
+data_test <- read.csv('Test_Data.csv')
 View(data_test)
 print(class(data_test))
 
