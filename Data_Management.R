@@ -1,8 +1,8 @@
 rm(list=ls())
 
-data_train <- read.csv('/Users/sajjadislam/Documents/Academic Projects/Data Intelligence/project/Train_Data.csv')
+data_train <- read.csv('Train_Data.csv')
 
-data_stroke <- read.csv('/Users/sajjadislam/Documents/Academic Projects/Data Intelligence/project/healthcare-dataset-stroke-data.csv')
+data_stroke <- read.csv('healthcare-dataset-stroke-data.csv')
 data_stroke <- data_stroke[, c("gender", "age", "hypertension", "heart_disease", "bmi", "stroke")]
 
 ##### Sort data #####
