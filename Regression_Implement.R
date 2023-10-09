@@ -1,6 +1,6 @@
 rm(list=ls())
 
-data_train <- read.csv('/Users/sajjadislam/Documents/Academic Projects/Data Intelligence/project/Train_Data.csv')
+data_train <- read.csv('Train_Data.csv')
 
 ##### Sort data #####
 sortedData_train<-data_train[order(data_train$age),]
